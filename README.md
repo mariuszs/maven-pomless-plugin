@@ -1,4 +1,4 @@
-# maven-pomless-plugin
+# maven-pomless-plugin [![Build Status](https://travis-ci.org/mariuszs/maven-pomless-plugin.svg?branch=master)](https://travis-ci.org/mariuszs/maven-pomless-plugin)
 Example Maven Pomless plugin
 
 
