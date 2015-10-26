@@ -27,7 +27,7 @@ public class IntegrationTest {
     @Test
     public void testPomlessGoalExecution() throws Exception {
         File basedir = resources.getBasedir();
-        maven.forProject(basedir).withCliOption("-X").execute("pomless").assertErrorFreeLog();
+        maven.forProject(basedir).withCliOption("-X").execute("io.codearte.maven:maven-pomless-plugin:pomless").assertErrorFreeLog();
         TestResources.assertFilesPresent(basedir, "log.txt");
     }
 
